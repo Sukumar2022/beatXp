@@ -1,0 +1,574 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+.left-side{
+    height: 100%;
+    width: 50%;
+    background-color: #464548;
+}
+.left-side .content h1{
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    top: 43%;
+    left: 6%;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.left-side .content p{
+    position: absolute;
+    font-family: sans-serif;
+    top: 80%;
+    left: 6%;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    width: 500px;
+    line-height: 22px;
+    opacity: .8;
+}
+
+.right-side{
+    height: 100%;
+    width: 50%;
+    background-color: #FB9883;
+}
+.right-side img{
+    position: absolute;
+    top: 1%;
+    right: 12%;
+    height: 600px;
+    width: 600px;
+}
+.page2{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.page2 .l-div{
+    height: 100%;
+    width: 50%;
+    background-image: url(images/img2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.page2 .r-div{
+    height: 100%;
+    width: 50%;
+    background-image: url(images/img3.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.page2 .l-div .content {
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.page2 .r-div .content {
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    font-size: 18px;
+    color: #fff;
+  
+}
+.page2 .content p{
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: #fff;
+    font-weight: 300px;
+    margin: 20px 0px;
+}
+.page2 .content a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+.page3{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #FB9883;
+}
+.page3 .container{
+    height: 85vh;
+    width: 88%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.page3 .con1{
+    margin: 0px 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 400px;
+}
+.page3 .con1 h1{
+    text-align: left;
+    padding: 10px 40px;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.page3 .con1 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 40px;
+    font-size: 14px;
+    width: 380px;
+    margin-bottom: 60px;
+    line-height: 20px;
+}
+.page3 .img-div{
+    height: 100%;
+    width: 430px;
+}
+.page3 .img-div img{
+  
+    height:400px;
+    width: 400px;
+}
+.page3 .con2{
+    height: 100%;
+    width: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.page3 .con2 p{
+    margin-bottom: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 220px;
+    text-align: right;
+    font-size: 16px;
+}
+.page3 .con2 img{
+    border-radius: 50%;
+    height: 180px;
+    width: 190px;
+}
+.page4{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/H2_7.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    position: relative;
+}
+.page4 .cnt{
+    position: absolute;
+    top: 60%;
+    right: 5%;
+    text-align: right;
+}
+.cnt h1{
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    size: 44px;
+    text-align: right;
+    
+}
+.cnt p{
+    width: 380px;
+    padding: 10px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cnt a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.page5{
+    height: 200vh;
+    width: 100%;
+    position: relative;
+ 
+}
+.page5 .sec1{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.sec1-left{
+    height: 90%;
+    width: 45%;
+    position: relative;
+    
+}
+.sec1-left img{
+    position: absolute;
+    top: 22px;
+    right: 33px;
+    height: 280px;
+    width: 280px;
+}
+.sec1-left .left-para{
+    position: absolute;
+    top: 65%;
+    left: 20%;
+
+}
+.sec1-left .left-para h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+.sec1-left .left-para p{
+    width: 480px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sec1-right{
+    height: 90%;
+    width: 45%;
+    position: relative;
+}
+.sec1-right img{
+    position: absolute;
+    top: 22px;
+    left: 45px;
+    height: 280px;
+    width: 380px;
+}
+.sec1-right .right-para{
+    position: absolute;
+    top: 65%;
+    right: 20%;
+
+}
+.sec1-right .right-para h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 26px;
+    text-align: right;
+}
+.sec1-right .right-para p{
+    text-align: end;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page5 .sec2{
+    height: 110vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.sec2 .sec2-left{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.sec2-left img{
+    position: absolute;
+    top: 0;
+    left: 5%;
+    height: 380px;
+    width: 380px;
+}
+.sec2-left .sec2-para{
+    position: absolute;
+    top: 51%;
+    right: 0;
+    text-align: right;
+}
+.sec2-left .sec2-para h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 26px;
+    text-align: right;
+}
+.sec2-left .sec2-para p{
+    width: 380px;
+    text-align: end;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sec2-left .sec2-para2{
+    position: absolute;
+    top: 80%;
+    left: 30px;
+    text-align: left;
+}
+.sec2-left .sec2-para2 h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-size: 26px;
+    text-align: left;
+}
+.sec2-left .sec2-para2 p{
+    width: 490px;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sec2-left .sec2-para2 a{
+    font-weight: 800;
+    line-height: 20px;
+    text-decoration: none;
+    text-align: left;
+    color: #FB9883;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: .3s;
+    padding: 20px 0px;
+}
+.sec2-left .sec2-para2 a:hover{
+    color: crimson;
+    cursor: pointer;
+}
+.sec2 .sec2-right{
+    margin: 30px 0px;
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+.sec2-right .sec2-right-para{
+    position: absolute;
+    top: 6%;
+    z-index: 2;
+}
+.sec2-right-para h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-size: 26px;
+    text-align: left;
+}
+.sec2-right-para p{
+    width: 250px;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sec2-right img{
+    position: absolute;
+    top: 0;
+    right: 15%;
+    height: 350px;
+    width: 350px;
+}
+.sec2-right .img-div img{
+    top: 50%;
+    left: 30px;
+    height: 400px;
+    width: 400px;
+}
+
+.page6{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/img12.JPG);
+    background-size: 100% 100%;
+    background-position: center ;
+    position: relative;
+}
+.page6 .para{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+}
+.page6 h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-size: 35px;
+    text-align: left;
+    color: #fff;
+}
+.page6 p{
+    color: #fff;
+    margin-bottom: 10px;
+    width: 480px;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.page6 a{
+    font-weight: 800;
+    text-decoration: none;
+    text-align: left;
+    color: #FB9883;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: .3s;
+    letter-spacing: 2px;
+}
+.page6 a:hover{
+    color: crimson;
+    cursor: pointer;
+}
+.page7{
+    height: 75vh;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page7 .left{
+    height: 100%;
+    width: 50%;
+    background-color: #FB9883;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.page7 .left h1{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 30px;
+    text-align: left;
+    color: #fff;
+}
+.page7 .left .img-div{
+    height: 340px;
+    width: 500px;
+    position: relative;
+    top: 22%;
+    left: 15%;
+    display: flex;
+    justify-content: center;
+    
+}
+.page7 .left .img-div img{
+    position: absolute;
+    margin: 0px 0px;
+}
+.page7 .left .img-div img:nth-child(1){
+    height: 230px;
+    width: 250px;
+    top: 12%;
+    left: 2%;
+}
+.page7 .left .img-div img:nth-child(2){
+    top: -10px;
+    height: 250px;
+    width: 260px;
+    margin: 0px 15px;
+    top: 0;
+    left: 52%;
+}
+.page7 .left a{
+    position: absolute;
+    top: 80%;
+    right: 30%;
+    font-weight: 800;
+    text-decoration: none;
+    text-align: left;
+    color: #cc6a56;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: .3s;
+    letter-spacing: 2px;
+}
+.page7 .left a:hover{
+    color: crimson;
+    cursor: pointer;
+}
+
+
+.page7 .right{
+    height: 100%;
+    width: 50%;
+    background-color: #464548;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.page7 .right p{
+
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    color: #fff;
+    margin-bottom: 10px;
+    width: 260px;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.page7 .right .img-div{
+    margin-top: 20px;
+    height: 340px;
+    width: 500px;
+    position: relative;
+    top: 22%;
+    left: 15%;
+    display: flex;
+    justify-content: center;
+    
+}
+.page7 .right .img-div img{
+    position: absolute;
+    margin: 0px 0px;
+}
+.page7 .right .img-div img:nth-child(1){
+    height: 230px;
+    width: 250px;
+    top: 12%;
+    left: 2%;
+}
+.page7 .right .img-div img:nth-child(2){
+    top: -10px;
+    height: 250px;
+    width: 260px;
+    margin: 0px 15px;
+    top: 0;
+    left: 52%;
+}
+.page7 .right a{
+    position: absolute;
+    top: 80%;
+    right: 30%;
+    font-weight: 800;
+    text-decoration: none;
+    text-align: left;
+    color: #cc6a56;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: .3s;
+    letter-spacing: 2px;
+}
+.page7 .right a:hover{
+    color: crimson;
+    cursor: pointer;
+}

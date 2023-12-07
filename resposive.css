@@ -1,0 +1,224 @@
+
+@media (max-width:854px) {
+    .page3{
+        height: 100vh;
+        width: 100%;
+    }
+    .page3 .container{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .page3 .con1{
+        height: 30%;
+        width: 100%;
+        justify-content: flex-start;
+        width: 100%;
+    }
+    .page3 .con1 h1{
+        font-size: 40px;
+    }
+    .page3 .con1 p{
+       letter-spacing: 2px;
+       font-weight: 600;
+       font-size: 18px;
+       width: 650px;
+       line-height: 20px;
+    }
+    .page3 .img-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40%;
+        width: 100%;
+    
+    }
+    .page3 .img-div img{
+        height:350px;
+        width: 350px;
+    }
+    .page3 .con2{
+        height: 30%;
+        width: 100%;
+    }
+}   
+
+@media (max-width:430px) {
+    .right-side img{
+        right: 9%;
+        height: 330px;
+        width: 320px;
+    }
+    .left-side .content h1{
+        top: 45%;
+        left: 8%;     
+        font-size: 58px;
+    }
+    .left-side .content p{
+        top: 82%;
+        left: 8%;  
+        font-size: 14px;
+        width: 320px; 
+    }
+    .page2 .l-div{
+        height: 40vh;
+        width: 100%;
+    }
+    .page2 .r-div{
+        height: 40vh;
+        width: 100%;
+    }
+    .page2 .r-div .content {
+        top: 50%;
+    }
+    .page2 .content p{
+        font-size: 30px;
+    }
+    .page3{
+        height: auto;
+    }
+    .page3 .container{
+        height: 90%;
+        width: 95%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .page3 .con1{
+        height: 30%;
+        width: 50%;
+        justify-content: flex-start;
+        margin: 0px 5px;
+        width: 500px;
+    }
+    .page3 .con1 h1{
+        margin-top: 20%;
+        font-size: 30px;
+        text-align: left;
+    }
+    .page3 .con1 p{
+        margin: 0px 12px;
+        height: 200px;
+        padding:  5px;
+        text-align: left;
+        font-size: 14px;
+        margin-bottom: 6px;
+        width: 380px;
+    }
+    .page3 .img-div{
+        height: 40%;
+        width: 84%;
+    }
+    .page3 .img-div img{
+        height: 260px;
+        width: 260px;
+    }
+    .page3 .con2{
+        height: 30%;
+        width: 100%;
+        text-align: left;
+    }
+    .page4{
+        margin-top: 2%;
+        height: 90vh;
+    }    
+    .page4 .cnt{
+        position: absolute;
+        top: 50%;
+        right: 5%;
+        text-align: right;
+    }
+    .page5{
+        margin-top: 5%;
+    }
+    .sec1-left{
+        height: 40%;
+        width: 50%;
+    }
+    .page5 .sec1 .sec1-left{
+        height: 100%;
+        width: 100%;
+    }
+    .sec1-left img{
+        left: 20%;
+        height: 200px;
+        width: 200px;
+    }
+    
+    .sec1-left .left-para{
+        top: 43%;
+        left: 20%;
+    }
+    .sec1-left .left-para p{
+        width: 300px;
+    }
+    .sec1-right{
+        height: 100%;
+        width: 100%;
+    }
+    .sec1-right img{
+        top: 10px;
+        right: 10%;
+        height: 250px;
+        width: 310px;
+    }
+    .sec2 .sec2-left{
+        margin-top: 120%;
+        width: 100%;
+    }
+    .sec2-left img{
+        top: 0;
+        left: 10%;
+        height: 330px;
+        width: 320px;
+    }
+    .sec2-left .sec2-para{
+        top: 45%;
+        left: 12%;
+    }
+    .sec2-left .sec2-para h1{
+        text-align: left;
+    }
+    .sec2-left .sec2-para p{
+        width: 320px;
+        text-align: left;
+    }
+    .sec2-left .sec2-para2{
+        top: 70%;
+    }
+    .sec2-left .sec2-para2 p{
+        width: 350px;
+        text-align: left;
+    }
+    .sec2-left .sec2-para2 a{
+       margin-top: 20px;
+    }
+    .sec2 .sec2-right{
+        margin: 30px 0px;
+        width: 100%;
+    }
+    .sec2-right .sec2-right-para{
+        top: 8%;
+        right: 10%;
+    }
+    .sec2-right-para h1{
+        text-align: right;
+    }
+    .sec2-right-para p{
+        width: 220px;
+        text-align: right;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .sec2-right img{
+        position: absolute;
+        top: 10px;
+        right: 24%;
+        height: 350px;
+        width: 300px;
+    }
+    .sec2-right .img-div img{
+        top: 51%;
+        left: 26px;
+        height: 400px;
+        width: 351px;
+    }
+}
